@@ -1,0 +1,107 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+  <head>
+    {{> head/head head.defaults}}
+  </head>
+  <body class="page">
+    %=symbols=%
+    <div class="page__wrapper">
+      <header class="page-header">
+        <div class="container">
+          <div class="page-header__rowTop">
+          <div class="logo">
+            <img class="logo__img" src="%=static=%img/content/nerds-logoimg.png" alt="">
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav__list">
+              <li class="main-nav__items"><a href="#">студия</a></li>
+              <li class="main-nav__items"><a href="#">клиенты</a></li>
+              <li class="main-nav__items"><a href="#">магазин</a></li>
+              <li class="main-nav__items"><a href="#">контакты</a></li>
+            </ul>
+          </nav>
+            <div class="user-block">
+              <a href="#" class="user-block__basket">корзина</a>
+            </div>
+         
+          </div>
+          
+            <div class="slider-pageHeader">
+              <div class="slider-pageHeader__slide">
+                <div class="slider-pageHeader__descriptionBlock">
+                  <h2 class="slider-pageHeader__headline">Долго, дорого, скрупулезно.</h2> 
+                  <p class="slider-pageHeader__text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                  <a href="" class="slider-pageHeader__link">УЗНАТЬ БОЛЬШЕ</a>
+                </div>
+                <div class="slider-pageHeader__imgBlock">
+                  <img src="%=static=%img/content/slider-pageHeaderimg.png" alt="">
+                </div>
+              </div>
+              <div class="slider-pageHeader__slide">
+                <div class="slider-pageHeader__descriptionBlock">
+                  <h2 class="slider-pageHeader__headline">Только ночь, только хардкор.</h2>
+                  <p class="slider-pageHeader__text">Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
+                  <a href="" class="slider-pageHeader__link">УЗНАТЬ БОЛЬШЕ</a>
+                </div>
+                <div class="slider-pageHeader__imgBlock">
+                  <img src="%=static=%img/content/slider-pageHeaderimg2.png" alt="">
+                </div>
+              </div>
+              <div class="slider-pageHeader__slide">
+                <div class="slider-pageHeader__descriptionBlock">
+                  <h2 class="slider-pageHeader__headline">Любим математику как никто другой.</h2> 
+
+                  <p class="slider-pageHeader__text">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p> 
+                  <a href="" class="slider-pageHeader__link">УЗНАТЬ БОЛЬШЕ</a>
+                </div>
+                <div class="slider-pageHeader__imgBlock">
+                  <img src="%=static=%img/content/slider-pageHeaderimg3.png" alt="">
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </header>
+      <main class="page-content">
+        <div class="container">
+         
+          <div class="services">
+            <div class="services__cart">
+              <div class="services__img">
+                <img src="%=static=%img/content/services-img1.jpg" alt="#">
+              </div>
+              <h2 class="services__headline">веб-сайты</h2>
+              <p class="services__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+              <a href="#" class="services__link">заказать</a>
+            </div>
+            <div class="services__cart">
+              <div class="services__img">
+                <img src="%=static=%img/content/services-img2.jpg" alt="#">
+              </div>
+              <h2 class="services__headline">Приложения</h2>
+              <p class="services__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+              <a href="#" class="services__link services__link--colorGreen">заказать</a>
+            </div>
+            <div class="services__cart">
+              <div class="services__img">
+                <img src="%=static=%img/content/services-img3.jpg" alt="#">
+              </div>
+              <h2 class="services__headline">Презентации</h2>
+              <p class="services__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+              <a href="#" class="services__link services__link--colorYellow">заказать</a>
+            </div>
+          </div>
+        </div>
+        
+      </main>
+      <footer class="page-footer"></footer>
+    </div>
+
+    <script src="%=static=%js/separate-js/svg4everybody.min.js"></script>
+    <script>svg4everybody();</script>
+
+    <!-- Main scripts. You can replace it, but I recommend you to leave it here     -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="%=static=%js/main%=hash=%%=min=%.js"></script>
+  </body>
+</html>
